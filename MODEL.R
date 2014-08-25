@@ -54,9 +54,3 @@ spmod <- spLM(sqrt(Y)~X, coords=coords,
 
 plot(spmod$p.theta.samples,density=F)
 colMeans(spmod$p.theta.samples)
-
-5401 6830 9627 7840
-
-11 13
-
-330
